@@ -1,0 +1,87 @@
+/* 1. Selektor Body - Mengatur latar belakang halaman */
+body {
+    background-color: #dff0d8;
+    font-family: Arial, sans-serif; /* Tambahan agar font lebih rapi */
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Selektor Container - Memberi jarak konten dari pinggir */
+.container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* 3. Selektor Heading 1 - Warna merah tua */
+h1 {
+    color: darkred;
+}
+
+/* 4. Selektor Class Card - Kotak putih dengan garis hitam */
+.card {
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* 5. Selektor ID Header - Warna biru tua khusus */
+#header {
+    color: darkblue;
+}
+
+/* 6. Selektor Nav A - Menghilangkan garis bawah link & warna hijau */
+nav a {
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+}
+
+/* 7. Selektor Footer P - Warna merah untuk teks footer */
+footer p {
+    color: red;
+    font-size: 0.9rem;
+}
+
+/* 8. Selektor Button Hover - Hitam saat kursor di atasnya */
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    transition: 0.3s; /* Efek transisi halus */
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* 9. Selektor Image - Frame biru tebal */
+img {
+    border: 3px solid blue;
+    display: block;
+    margin: 10px 0;
+}
+
+/* 10. Selektor Table TR - Baris tabel abu-abu muda */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr {
+    background-color: lightgray;
+}
+
+/* 11. Selektor OL LI - List angka warna ungu */
+ol li {
+    color: purple;
+}
+
+/* 12. Selektor Article - Background kuning (kontras tinggi) */
+article {
+    background-color: yellow;
+    padding: 10px;
+    border: 1px dashed black;
+    margin-top: 10px;
+}
